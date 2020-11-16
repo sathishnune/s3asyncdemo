@@ -24,3 +24,7 @@ Steps to access the urls:
 - http://localhost:8080/s3/async/getObject/empobject -> Get Object from S3 bucket "s3asyncdemo" and file name "empobject" in Async way.
 
 Formatter: https://github.com/google/google-java-format
+
+References: 
+- https://aws.amazon.com/blogs/developer/aws-sdk-for-java-2-x-released/
+- https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html
