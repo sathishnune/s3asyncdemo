@@ -5,17 +5,17 @@ S3 with Async Client and Spring Webflux.
 Sample demo application to demonstrate Async and traditional way of 
 handling S3 actions like list of buckets, get Object.
 
-Pre-requisites
+##Pre-requisites
 1. Should have basic knowledge on Java and Spring.
 2. Should have AWS Account with read access to S3.
 
-Steps Required:
+##Steps Required:
 1. Create a bucket with name "s3asyncdemo" or change the bucket name in S2AsyncClientDemoService.
-    - Place the file attached in created bucket.
+     - Place the file "empobject" in created bucket. File available at root of the application.
 2. Configure AWS credentials - https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html
 3. Clone the project and run "mvn clean install" and run the application
 
-Steps to access the urls:
+##Steps to access the urls:
 1. Default port is 8080 unless you change it.
 2. Access from Below urls
 - http://localhost:8080/s3/async/listofbuckets -> To list buckets in Async way
